@@ -1,0 +1,18 @@
+<?php
+
+namespace {{namespace}};
+
+use App\ApiResponse\Request\ApiRequestForm;
+class {{class}} extends ApiRequestForm
+{
+    public function authorize(): bool
+    {
+        return true;
+    }
+    public function rules(): array
+    {
+        return [
+
+        ];
+    }
+}
